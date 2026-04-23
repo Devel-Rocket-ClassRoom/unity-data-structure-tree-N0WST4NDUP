@@ -43,7 +43,7 @@ public class TreeVisualizer : MonoBehaviour
         for (int i = transform.childCount - 1; i >= 0; i--)
         {
             Destroy(transform.GetChild(i).gameObject);
-        } // 안하면 계속 누적 ㅋ
+        } // 안하면 계속 누적
 
         _nodePositions.Clear();
 
